@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from 'react';
 
 import CardList from '../CardList';
 
+// this function can be anywere
 const requestUsers = async () => {
   try {
     let users = await fetch('https://jsonplaceholder.typicode.com/users');
